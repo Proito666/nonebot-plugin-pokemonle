@@ -63,7 +63,7 @@ nonebot插件版的猜宝可梦，修改自[pokemonle](https://github.com/QuantA
 | 配置项 | 必填 | 类型 | 默认值 | 说明 |
 |:-----:|:----:|:----:|:----:|:----:|
 | pokemonle_max_attempts | 否 | int | 10 | 最大尝试次数 |
-| pokemonle_gens | 否 | list | [] | 世代选择，例如：["第一世代", "第三世代", "第五世"]，空代表都选 |
+| pokemonle_gens | 否 | list | [] | 世代选择，例如：["第一世代", "第三世代", "第五世代"]，空代表都选 |
 | pokemonle_cheat | 否 | bool | False | 是否开启恶作剧 |
 
 ## 🎉 使用
