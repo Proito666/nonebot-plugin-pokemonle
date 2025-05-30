@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 15px;
+            line-height: 1.6;
+            position: relative;
+            max-width: {{ width }}px;
+            text-align: center;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+        table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        span {
+            padding: 2px 5px;
+            border-radius: 4px;
+            display: inline-block;
+            line-height: 1.2;
+            vertical-align: middle;
+        }
+        .size-high,.size-low,.size-far {
+            background-color: #f4f4f5;
+            border-color: #e9e9eb;
+            color: #909399;
+        }
+        .size-near {
+            background-color: #fdf6ec;
+            border-color: #faecd8;
+            color: #e6a23c;
+        }
+        .size-high::after {
+            content: " ↑";
+        }
+        .size-low::after {         
+            content: " ↓";
+        }
+        .size-equiv {
+            background-color: #f0f9eb;
+            border-color: #e1f3d8;
+            color: #67c23a;
+        }
+        .guess-title {
+            font-weight:bold;
+            font-size: 1.3em;
+            margin-bottom:10px;
+        }
+        .attr-True {
+            background-color: #f0f9eb;
+            border-color: #e1f3d8;
+            color: #67c23a;
+        }
+        .attr-False {
+            background-color: #f4f4f5;
+            border-color: #e9e9eb;
+            color: #909399;
+        }
+        .attempts-warning {
+            color: #d32f2f;
+            font-weight: bold;
+        }
+        .monster-icon {
+            display: inline-block;
+            height: 5em;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+        .cheat-icon {
+            height: 3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="guess-title">
+        {{ name }}
+        <img src="https://pokeimg.oss-cn-beijing.aliyuncs.com/pokemon_images/{{ index }}.webp" class="monster-icon">
+    </div>
+    <table>
+        <tr>
+            <td width="40%">属性</td>
+            <td>
+                {% for item in type %}
+                <span class="attr-{{ item.value }}">{{item.key|safe}}</span> 
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <td>种族值</td>
+            <td>
+                <span class="size-{{ pow.value }} size-{{ pow.dis }}">{{pow.key|safe}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>速度</td>
+            <td>
+                <span class="size-{{ speed.value }} size-{{ speed.dis }}">{{speed.key|safe}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>攻防</td>
+            <td>
+                <span class="attr-{{ attack.value }}">{{attack.key|safe}}</span> 
+                <span class="attr-{{ defense.value }}">{{defense.key|safe}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>世代</td>
+            <td>
+                <span class="size-{{ gen.value }} size-{{ gen.dis }}">{{gen.key|safe}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>特性</td>
+            <td>
+                {% for item in ability %}
+                <span class="attr-{{ item.value }}">{{item.key|safe}}</span> 
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <td>进化</td>
+            <td>
+                <span class="attr-{{ stage.value }}">{{stage.key|safe}}</span> 
+                {% if evo.key %}
+                <span class="size-{{ evo.value }}">{{evo.key}}</span>
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td>外形</td>
+            <td>
+                <span class="attr-{{ shape.value }}">{{shape.key|safe}}</span> 
+                <span class="attr-{{ col.value }}">{{col.key|safe}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>蛋组</td>
+            <td>
+                {% for item in egg %}
+                <span class="attr-{{ item.value }}">{{item.key|safe}}</span> 
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <td>捕获率</td>
+            <td>
+                <span class="size-{{ catrate.value }} size-{{ catrate.dis }}">{{catrate.key|safe}}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>其他</td>
+            <td>
+                {% for item in label %}
+                <span class="attr-{{ item.value }}">{{item.key|safe}}</span> 
+                {% endfor %}
+            </td>
+        </tr>
+    </table>
+    {% if not answer %}
+        <div style="margin-top:15px;" class="{{ 'attempts-warning' if attempts_left <= 3 }}">
+            剩余尝试次数: {{ attempts_left }}
+        </div>
+    {% endif %}
+</body>
+</html>

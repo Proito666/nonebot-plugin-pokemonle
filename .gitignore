@@ -1,0 +1,7 @@
+.pdm-build
+.pdm-python
+__pycache__
+dist
+.venv
+tests
+src
