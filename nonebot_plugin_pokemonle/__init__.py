@@ -78,24 +78,22 @@ async def handle_guess(uninfo: Uninfo, event: Event):
 
     ans = game.guess(uninfo, poke)
             
+    attempts_left = game.max_attempts - len(game_data["guesses"])
+    # 检查尝试次数
+    if attempts_left <= 0:
+        game.end_game(uninfo)
+        img = await render_result(ans)
+        await UniMessage([
+            "尝试次数已用尽！正确答案：",
+            Image(raw=img)
+        ]).send()
+        return
+    
     if ans["answer"]:
         game.end_game(uninfo)
         img = await render_result(ans)
         await UniMessage([
             "猜对了！正确答案：",
-            Image(raw=img)
-        ]).send()
-        return
-    
-    attempts_left = game.max_attempts - len(game_data["guesses"])
-    # 检查尝试次数
-    if attempts_left <= 0:
-        poke = game.get_game(uninfo)["poke"]
-        ans = game.guess(uninfo, poke)
-        game.end_game(uninfo)
-        img = await render_result(ans)
-        await UniMessage([
-            "尝试次数已用尽！正确答案：",
             Image(raw=img)
         ]).send()
         return

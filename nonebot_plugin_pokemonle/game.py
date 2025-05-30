@@ -50,6 +50,11 @@ class Pokemonle:
 
         game["guesses"].append(self.nameList[guessed])
         current = game["poke"]
+
+        # 检查尝试次数
+        attempts_left = self.max_attempts - len(game["guesses"])
+        if attempts_left <= 0:
+            guessed = current
         
         ans = {"name": self.pokeList[guessed]["name"], "index": int(self.pokeList[guessed]["index"])}
         ans["answer"] = self.pokeList[guessed]["name"] == self.pokeList[current]["name"]
