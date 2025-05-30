@@ -20,7 +20,7 @@ __plugin_meta__ = PluginMetadata(
 猜宝可梦 - 开始游戏
 结束 - 结束游戏
 直接输入宝可梦猜测""",
-    #todo homepage="https://github.com/Proito666/nonebot-plugin-mhguesser",
+    homepage="https://github.com/Proito666/nonebot-plugin-pokemonle",
     supported_adapters=inherit_supported_adapters(
         "nonebot_plugin_alconna", "nonebot_plugin_uninfo"
     ),
