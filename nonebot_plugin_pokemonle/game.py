@@ -47,8 +47,6 @@ class Pokemonle:
 
     def guess(self, uninfo: Uninfo, guessed: int) -> Tuple[bool, Optional[Dict], Dict]:
         game = self.get_game(uninfo)
-        if not game or len(game["guesses"]) >= self.max_attempts:
-            raise ValueError("游戏已结束")
 
         game["guesses"].append(self.nameList[guessed])
         current = game["poke"]
