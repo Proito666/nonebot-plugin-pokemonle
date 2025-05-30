@@ -1,23 +1,24 @@
 {
-    "name": "死神棺",
-    "index": "0563",
-    "name_en": "Cofagrigus",
-    "name_jp": "デスカーン",
-    "profile": "迭失棺是外形类似棺材的宝可梦。它拥有闪亮亮的黄金之躯，身上覆盖的是纯金。它的眼睛是红色的，上方有一个面具。有四只如影子般灰色的手。\n迭失棺会假装成漂亮的棺材，会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内做成木乃伊。据说它已再也无法记起自己曾是人类。迭失棺喜欢吃金块，象征着国王的财富，因此许多古墓里都有它的壁画。\n",
+    "name": "迭失板",
+    "index": "0867",
+    "name_en": "Runerigus",
+    "name_jp": "デスバーン",
+    "profile": "迭失板与迭失棺同样属于与古代遗迹有关的宝可梦，不同的是它的外壳并不是金棺，而是破碎的石板。迭失板用灵体将石板碎片贯穿并牵引着，其眼睛与石板上蛇形符文的眼相重合，尾巴上的石板则与伽勒尔哭哭面具的石板相同。\n迭失板是被注入了强烈诅咒的古代绘画在吸进哭哭面具的灵魂后就开始动起来了的宝可梦。绝对不能触摸迭失板影子般的身体，否则它会让你看到印刻在它画中的恐怖记忆。\n",
     "forms": [
         {
-            "name": "死神棺",
-            "index": "0563",
+            "name": "迭失板",
+            "index": "0867",
             "is_mega": false,
             "is_gmax": false,
-            "image": "0563-死神棺.png",
+            "image": "0867-迭失板.png",
             "types": [
+                "地面",
                 "幽灵"
             ],
-            "genus": "棺木宝可梦",
+            "genus": "怨念宝可梦",
             "ability": [
                 {
-                    "name": "木乃伊",
+                    "name": "游魂",
                     "is_hidden": false
                 }
             ],
@@ -25,14 +26,14 @@
                 "number": "1,000,000",
                 "speed": "较快"
             },
-            "height": "1.7m",
-            "weight": "76.5kg",
+            "height": "1.6m",
+            "weight": "66.6kg",
             "gender_rate": {
                 "male": "50%",
                 "female": "50%"
             },
             "shape": "柱形",
-            "color": "黄色",
+            "color": "灰色",
             "catch_rate": {
                 "number": "90",
                 "rate": "11.8%"
@@ -48,9 +49,9 @@
             "form": "一般",
             "data": {
                 "hp": "58",
-                "attack": "50",
+                "attack": "95",
                 "defense": "145",
-                "sp_attack": "95",
+                "sp_attack": "50",
                 "sp_defense": "105",
                 "speed": "30"
             }
@@ -75,53 +76,11 @@
         },
         {
             "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "有传言说，它会吞掉接近它的人类，做成木乃伊。喜欢吃金块。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "假装成漂亮的棺材惩罚盗墓贼。身上覆盖的是纯金。*"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内。"
-                }
-            ]
+            "versions": []
         },
         {
             "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "有传言说，它会吞掉接近它的人类，做成木乃伊。喜欢吃金块。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "有传言说，它会吞掉接近它的人类，做成木乃伊。喜欢吃金块。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内。"
-                }
-            ]
+            "versions": []
         },
         {
             "name": "第七世代",
@@ -133,12 +92,12 @@
                 {
                     "name": "剑",
                     "group": "宝可梦 剑／盾",
-                    "text": "拥有闪亮亮的黄金之躯。据说它已再也无法记起自己曾是人类。"
+                    "text": "被注入了强烈诅咒的古代绘画在吸进哭哭面具的灵魂后就开始动起来了。"
                 },
                 {
                     "name": "盾",
                     "group": "宝可梦 剑／盾",
-                    "text": "死神棺象征着国王的财富，因此许多古墓里都有它的壁画。"
+                    "text": "绝对不能触摸它影子般的身体，否则它会让你看到印刻在它画中的恐怖记忆。"
                 }
             ]
         },
@@ -153,16 +112,16 @@
                 "name": "哭哭面具",
                 "stage": "未进化",
                 "text": null,
-                "image": "562Yamask_Dream.png",
+                "image": "562Yamask-Galar_Dream.png",
                 "back_text": null,
                 "from": null,
-                "form_name": null
+                "form_name": "伽勒尔的样子"
             },
             {
-                "name": "迭失棺",
+                "name": "迭失板",
                 "stage": "1阶进化",
-                "text": "等级34以上",
-                "image": "563Cofagrigus_Dream.png",
+                "text": "受到至少50伤害后来到沙尘洼地岩门附近",
+                "image": "867Runerigus_Dream.png",
                 "back_text": "",
                 "from": "哭哭面具",
                 "form_name": null
@@ -170,15 +129,15 @@
         ]
     ],
     "names": {
-        "zh_hans": "死神棺",
-        "en": "Cofagrigus",
-        "fr": "Cofagrigus",
-        "zh_hant": "死神棺",
-        "de": "Echnatoll",
-        "it": "Cofagrigus",
-        "es": "Cofagrigus",
-        "ja": "デスカーン",
-        "ko": "데스니칸"
+        "zh_hans": "迭失板",
+        "en": "데스판 Deseupan",
+        "fr": "데스판 Deseupan",
+        "zh_hant": "迭失板",
+        "de": "Oghnatoll",
+        "it": "Runerigus",
+        "es": "Runerigus",
+        "ja": "デスバーン",
+        "ko": "데스판"
     },
     "moves": {
         "learned": [
@@ -285,13 +244,13 @@
                         "level_learned_at": "16",
                         "machine_used": null,
                         "method": "提升等级",
-                        "name": "磷火",
-                        "flavor_text": "放出怪异的火焰，从而让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
+                        "name": "狂舞挥打",
+                        "flavor_text": "用自己的身体狂舞挥打，给予对手伤害。",
+                        "type": "恶",
+                        "category": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
                     },
                     {
                         "level_learned_at": "20",
@@ -333,13 +292,13 @@
                         "level_learned_at": "32",
                         "machine_used": null,
                         "method": "提升等级",
-                        "name": "怨念",
-                        "flavor_text": "因对手的招式而陷入昏厥时给对手施加怨念，让该招式的ＰＰ变成０。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
+                        "name": "摔打",
+                        "flavor_text": "使用长长的尾巴或藤蔓等摔打对手进行攻击。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "80",
+                        "accuracy": "75",
+                        "pp": "20"
                     },
                     {
                         "level_learned_at": "38",
@@ -369,13 +328,13 @@
                         "level_learned_at": "50",
                         "machine_used": null,
                         "method": "提升等级",
-                        "name": "恶之波动",
-                        "flavor_text": "从体内发出充满恶意的恐怖气场。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "80",
+                        "name": "地震",
+                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
+                        "type": "地面",
+                        "category": "物理",
+                        "power": "100",
                         "accuracy": "100",
-                        "pp": "15"
+                        "pp": "10"
                     },
                     {
                         "level_learned_at": "56",
@@ -470,6 +429,18 @@
                     },
                     {
                         "level_learned_at": null,
+                        "machine_used": "招式学习器２２",
+                        "method": "招式学习器",
+                        "name": "岩崩",
+                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
+                        "type": "岩石",
+                        "category": "物理",
+                        "power": "75",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
                         "machine_used": "招式学习器２３",
                         "method": "招式学习器",
                         "name": "小偷",
@@ -527,6 +498,18 @@
                         "power": "—",
                         "accuracy": "100",
                         "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器３２",
+                        "method": "招式学习器",
+                        "name": "沙暴",
+                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
+                        "type": "岩石",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
                     },
                     {
                         "level_learned_at": null,
@@ -599,6 +582,42 @@
                         "power": "—",
                         "accuracy": "100",
                         "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器４８",
+                        "method": "招式学习器",
+                        "name": "岩石封锁",
+                        "flavor_text": "投掷岩石进行攻击。封住对手的行动，从而降低速度。",
+                        "type": "岩石",
+                        "category": "物理",
+                        "power": "60",
+                        "accuracy": "95",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器４９",
+                        "method": "招式学习器",
+                        "name": "流沙深渊",
+                        "flavor_text": "将对手困在铺天盖地的沙暴中，在４～５回合内进行攻击。",
+                        "type": "地面",
+                        "category": "物理",
+                        "power": "35",
+                        "accuracy": "85",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器５４",
+                        "method": "招式学习器",
+                        "name": "岩石爆击",
+                        "flavor_text": "向对手发射坚硬的岩石进行攻击。连续攻击２～５次。",
+                        "type": "岩石",
+                        "category": "物理",
+                        "power": "25",
+                        "accuracy": "90",
+                        "pp": "10"
                     },
                     {
                         "level_learned_at": null,
@@ -698,6 +717,18 @@
                     },
                     {
                         "level_learned_at": null,
+                        "machine_used": "招式学习器８１",
+                        "method": "招式学习器",
+                        "name": "重踏",
+                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
+                        "type": "地面",
+                        "category": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
                         "machine_used": "招式学习器８６",
                         "method": "招式学习器",
                         "name": "潜灵奇袭",
@@ -705,6 +736,30 @@
                         "type": "幽灵",
                         "category": "物理",
                         "power": "90",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器９７",
+                        "method": "招式学习器",
+                        "name": "狂舞挥打",
+                        "flavor_text": "用自己的身体狂舞挥打，给予对手伤害。",
+                        "type": "恶",
+                        "category": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录１０",
+                        "method": "招式学习器",
+                        "name": "地震",
+                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
+                        "type": "地面",
+                        "category": "物理",
+                        "power": "100",
                         "accuracy": "100",
                         "pp": "10"
                     },
@@ -719,6 +774,18 @@
                         "power": "90",
                         "accuracy": "100",
                         "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录１７",
+                        "method": "招式学习器",
+                        "name": "瞬间失忆",
+                        "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
+                        "type": "超能力",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
                     },
                     {
                         "level_learned_at": null,
@@ -767,6 +834,18 @@
                         "power": "80",
                         "accuracy": "100",
                         "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录３７",
+                        "method": "招式学习器",
+                        "name": "挑衅",
+                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
+                        "type": "恶",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "20"
                     },
                     {
                         "level_learned_at": null,
@@ -842,11 +921,35 @@
                     },
                     {
                         "level_learned_at": null,
+                        "machine_used": "招式记录６２",
+                        "method": "招式学习器",
+                        "name": "龙之波动",
+                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
+                        "type": "龙",
+                        "category": "特殊",
+                        "power": "85",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
                         "machine_used": "招式记录６５",
                         "method": "招式学习器",
                         "name": "能量球",
                         "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
                         "type": "草",
+                        "category": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录６７",
+                        "method": "招式学习器",
+                        "name": "大地之力",
+                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
+                        "type": "地面",
                         "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
@@ -875,6 +978,30 @@
                         "power": "80",
                         "accuracy": "90",
                         "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录７５",
+                        "method": "招式学习器",
+                        "name": "尖石攻击",
+                        "flavor_text": "用尖尖的岩石刺入对手进行攻击。容易击中要害。",
+                        "type": "岩石",
+                        "category": "物理",
+                        "power": "100",
+                        "accuracy": "80",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录７６",
+                        "method": "招式学习器",
+                        "name": "隐形岩",
+                        "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
+                        "type": "岩石",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
                     },
                     {
                         "level_learned_at": null,
@@ -918,9 +1045,9 @@
     },
     "home_images": [
         {
-            "name": "死神棺",
-            "image": "0563-死神棺.png",
-            "shiny": "0563-死神棺-shiny.png"
+            "name": "迭失板",
+            "image": "0867-迭失板.png",
+            "shiny": "0867-迭失板-shiny.png"
         }
     ]
 }

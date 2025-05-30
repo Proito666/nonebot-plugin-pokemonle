@@ -3705,7 +3705,7 @@
     },
     {
         "index": "0233",
-        "name": "多边兽Ⅱ",
+        "name": "多边兽2型",
         "name_jp": "ポリゴン２",
         "name_en": "Porygon2",
         "generation": "第二世代",
@@ -6984,7 +6984,7 @@
     },
     {
         "index": "0474",
-        "name": "多边兽Ｚ",
+        "name": "多边兽乙型",
         "name_jp": "ポリゴンＺ",
         "name_en": "Porygon-Z",
         "generation": "第四世代",
@@ -8244,7 +8244,7 @@
     },
     {
         "index": "0563",
-        "name": "死神棺",
+        "name": "迭失棺",
         "name_jp": "デスカーン",
         "name_en": "Cofagrigus",
         "generation": "第五世代",
@@ -12214,7 +12214,7 @@
     },
     {
         "index": "0848",
-        "name": "毒电婴",
+        "name": "电音婴",
         "name_jp": "エレズン",
         "name_en": "Toxel",
         "generation": "第八世代",
@@ -12471,7 +12471,7 @@
     },
     {
         "index": "0867",
-        "name": "死神板",
+        "name": "迭失板",
         "name_jp": "デスバーン",
         "name_en": "Runerigus",
         "generation": "第八世代",
