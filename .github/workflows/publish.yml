@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'pyproject.toml'
-
+  workflow_dispatch: 
 jobs:
   check-version:
     runs-on: ubuntu-latest
