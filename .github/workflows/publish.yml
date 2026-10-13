@@ -6,7 +6,12 @@ on:
       - main
     paths:
       - 'pyproject.toml'
-  workflow_dispatch: 
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '强制发布，跳过版本检查'
+        type: boolean
+        default: false
 jobs:
   check-version:
     runs-on: ubuntu-latest
@@ -31,7 +36,7 @@ jobs:
 
   publish:
     needs: check-version
-    if: needs.check-version.outputs.changed == 'true'
+    if: needs.check-version.outputs.changed == 'true' || github.event.inputs.force == 'true'
     runs-on: ubuntu-latest
     environment: pypi
     permissions:
