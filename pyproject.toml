@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-pokemonle"
-version = "0.0.8"
+version = "0.0.9"
 description = "猜宝可梦"
 authors = [
     {name = "Proito666", email = "Proito666@github.com"},
