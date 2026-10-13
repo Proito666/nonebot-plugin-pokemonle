@@ -69,7 +69,7 @@ async def handle_guess(uninfo: Uninfo, event: Event):
         return
         
     poke = game.getPokeByName(guess_name)
-    if not poke:
+    if poke is None:
         similar = game.find_similar(guess_name)
         if not similar:
             return
